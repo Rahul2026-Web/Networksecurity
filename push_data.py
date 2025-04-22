@@ -15,8 +15,8 @@
 # import pandas as pd
 # import numpy as np
 # import pymongo
-# from networksecuity.exception.exception import NetworkSecurityException
-# from networksecuity.logging.logger import logging
+# from networksecurity.exception.exception import NetworkSecurityException
+# from networksecurity.logging.logger import logging
 
 # class NetworkDataExtract():
 #     def __init__(self):
@@ -81,8 +81,8 @@ import numpy as np
 import pymongo
 
 # Fix spelling here if needed
-from networksecuity.exception.exception import NetworkSecurityException
-from networksecuity.logging.logger import logging
+from networksecurity.exception.exception import NetworkSecurityException
+from networksecurity.logging.logger import logging
 
 class NetworkDataExtract:
     def __init__(self):
