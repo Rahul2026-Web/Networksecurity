@@ -1,0 +1,46 @@
+AtSymbol:
+  drift_status: &id001 !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - b1
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AA==
+  p_value: 1.0
+HttpsInHostname:
+  drift_status: *id001
+  p_value: 1.0
+IpAddress:
+  drift_status: *id001
+  p_value: 1.0
+NumDash:
+  drift_status: *id001
+  p_value: 0.6625949026355162
+NumDots:
+  drift_status: *id001
+  p_value: 0.9999948783426643
+NumNumericChars:
+  drift_status: *id001
+  p_value: 0.7457221664000921
+PathLength:
+  drift_status: *id001
+  p_value: 0.48137389148351784
+PathLevel:
+  drift_status: *id001
+  p_value: 0.9999974813092519
+Phising:
+  drift_status: *id001
+  p_value: .nan
+UrlLength:
+  drift_status: *id001
+  p_value: 0.10642177248493534
